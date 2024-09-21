@@ -1,0 +1,85 @@
+body{
+    /* background-color: beige; */
+    background-color: gray;
+    box-sizing: border-box;
+}
+
+.coloums{
+    display: flex;
+    flex-direction: row;;
+    gap: 2rem;
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.contaner{
+    display: flex;
+    flex-direction: row;
+    row-gap: 20rem;
+}
+
+.mainbox{
+    height: 4rem;
+    width: 10%;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: tomato;
+}
+
+.f_row{
+    /* height: 20rem; */
+    padding: 20px;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.sky{
+    background-color: skyblue;
+}
+
+.brown{
+    background-color: burlywood;
+}
+
+.fbox{
+    box-sizing: border-box;
+    height: 80px;
+    width: 80px;
+    /* background-color: bisque; */
+    border-radius: 10px;
+    margin-bottom: 10px; 
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+    cursor: grab;
+    user-select: none;
+}
+
+.hold{
+  border: 2px solid gray;
+}
+
+.hide{
+    display: none;
+}
+
+.fbox.hold{
+    opacity: 0.5;
+}
+
+.fbox:hover{
+    border: 1px dashed #333;
+    transform: scale(1.05);
+}
+
+
+
+
+/* .last {
+    height: 30rem;
+    width: 50rem;
+    background-color: burlywood;
+} */
