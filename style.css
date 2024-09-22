@@ -9,33 +9,45 @@ body{
     flex-direction: row;;
     gap: 2rem;
     height: 100%;
-    width: 100%;
-    /* background-color: aquamarine; */
+    width: 98%;
+    margin-left:2.5rem;
 }
 
 .contaner{
     display: flex;
     flex-direction: row;
     row-gap: 20rem;
+    margin-left: 1.5rem;
 }
 
 .mainbox{
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 16px;
     height: 4rem;
-    width: 10%;
+    width: 9.5rem;
     margin-right: 20px;
     border-radius: 10px;
-    background-color: tomato;
+    text-align: center;
+    border: 1.3px solid black;
 }
 
 .f_row{
-    /* height: 20rem; */
-    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 9.2rem;
 }
 
 .green{
     background-color: greenyellow;
 }
-
+.yellow {
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
 .sky{
     background-color: skyblue;
 }
@@ -46,6 +58,7 @@ body{
 
 .fbox{
     box-sizing: border-box;
+    opacity: 0.8;
     height: 80px;
     width: 80px;
     /* background-color: bisque; */
@@ -56,6 +69,7 @@ body{
     font-size: 22px;
     cursor: grab;
     user-select: none;
+    border: 0.1px solid black;
 }
 
 .hold{
